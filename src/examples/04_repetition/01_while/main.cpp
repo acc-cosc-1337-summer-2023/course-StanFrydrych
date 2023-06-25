@@ -1,7 +1,12 @@
 #include "while.h"
+#include <iostream>
 
-int main() 
+using namespace std;
+
+int main()
 {
+	int num = 5;
+	int &num_ref = num;
+	num_ref = 10;
 
-	return 0;
 }
